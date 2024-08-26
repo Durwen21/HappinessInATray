@@ -1,0 +1,278 @@
+ *{
+padding:0;
+margin:0;
+box-sizing: border-box;
+font-family: 'Poppins',sans-serif;}
+
+.hidden{
+    opacity: 0;
+    transition: all 2s;
+
+}
+.show{
+    opacity: 1;
+}
+/* Header starts here*/
+header{
+    flex-wrap: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    padding: 0px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 10%), 0 2px 2px rgb(0 0 0 / 6%), 0 0 2px rgb(0 0 0 / 7%);
+}
+#menu1 #home{
+    box-shadow: inset 0 -6px darkcyan;
+    padding-bottom: 2.5rem;
+}
+header .logo{
+    float: left;
+    width: 80px;
+    height: 75px;
+    margin-top: 2px;
+    margin-left: -20px;
+    margin-right: 410px;
+}
+header ul{
+    margin-top: 40px;
+    display: flex;
+    margin-left: 190px;
+}
+header ul li{
+    list-style: none;
+}
+header ul  li a{
+    display: inline-block;
+    color: #333;
+    font-weight: 400;
+    font-size: 1.2em;
+    margin-left: 37px;
+    text-decoration: none;
+}
+
+header li a:hover{     
+    color: darkcyan;
+}
+.btn{  
+    margin-right: -20px;
+    transition: all 1s ease-out;
+    display: inline-block;
+    outline: 0;
+    cursor: pointer;
+    text-align: center;
+    border: 0;
+    margin-left: 35px;
+    height: 30px;
+    width: 60px;
+    color: #ffffff;
+    background: darkcyan;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 14px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 0px 0px, rgba(0, 0, 0, 0.2) 0px -1px 0px 0px inset;
+}
+.btn:hover{
+    background: #06b4b1; 
+}
+/* Header ends here*/
+
+
+
+/* Content starts here*/
+#table{
+    margin-top: 70px;
+    padding: 15px;
+}
+#banner{
+    border-radius: 10px;
+	margin-top:50px;
+	width: 100%;
+    height: 100%;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+/* Business Name*/
+#pics{
+	width: 100%;
+    margin-top: 30px;
+    transition: 1s ease;
+}
+#pics:hover{
+    transform: scale(0.8);
+    transition: 1s ease;
+}
+.pcs{
+    max-width: 240px;
+    max-height: 300px;
+}
+/* Business Name ends Here*/
+
+
+/* Value*/
+#title{
+	margin-left:100px;
+	font-family: verdana;
+	font-size: 65px;
+}
+#line{
+    border-style: ridge;
+    position: relative;
+    border: none;
+    height: 12px;
+    background: #68A7AD;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+.pcs{
+    margin-top: 50px;
+    margin-left: 40px;
+    height: 440px;
+    width: 450px;
+    border-radius: 25px;
+    border-top: 5px solid #D4FAFC;
+    border-bottom:5px solid #D4FAFC;
+    border-right:5px solid #D4FAFC;
+    border-left:5px solid #D4FAFC;
+    cursor:pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 1s ease;
+    }
+.pcs:hover
+    {
+    filter: brightness(100%);  
+    }
+#values{
+	background-color: #adf0d3;
+	width: 100%;
+	height: 600px;
+	margin-top: 50px;
+	margin-left: 10px;
+	border-radius: 50px;
+    cursor: pointer;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    filter: brightness(100%);
+    transition: 1s ease-in-out;
+}
+#values:hover{
+    transition: 1s ease-in-out;
+    cursor: pointer;
+}
+#title{
+    margin-top: 50px;
+    text-align: center;
+
+}
+#valpic{
+	margin-top: 50px;
+	height:400px;
+	margin-left:10px;
+	border-radius: 50px;
+}
+
+/* Value ends Here*/
+
+/* Products and Services*/
+#title2{
+    font-size: 30px;
+    margin-top: 70px;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+}
+
+#lastpic{
+    margin-top: 50px;
+}
+.p1{
+    margin-bottom: 35px;
+    margin-right: 50px;
+    height: 300px;
+    width: 250px;
+    transition: 1s ease;
+    filter: brightness(100%);
+    border-radius:20px;
+}
+.p1:hover{
+    transform: rotateZ(-10deg);
+    transition: 1s ease;    
+}
+#fooddesc{
+    
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#delivery{
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#quality{
+   
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 20px;
+}
+#entertainment{
+
+    font-size: 30px;
+    text-align: justify;
+    margin-left: 20px;
+}
+h2{
+    color: black;
+    font-size:2em;
+    line-height: 1.4em;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+p{
+    text-align: start;
+}
+
+/* Products and Services ends Here*/
+/* Content ends here*/
+
+
+
+/* Footer Starts here  */
+footer{
+    margin-top: 1500px;
+    border-top:rgba(0, 0, 0, 0.3) 1px solid;
+    position: absolute;
+    width: 100%;
+    height: 130px;
+    margin-left: -30px;
+}
+
+#socmed li{
+   margin-top: 30px;
+   margin-left: 40px;
+   text-decoration: none;
+   display: inline;
+   transition: 500ms ease-out;
+   
+}
+#socmed li:hover{
+     transform: translateY(1px);
+}
+.pics{
+    margin-left: 25px;
+    margin-top: 28px;
+    width: 40px;
+    height: 40px;
+}
+.pooter li{
+    margin-top: 24px;
+    display: inline-flex;
+    margin-left: 35px;
+    font-size: large;
+    font-weight: 400;
+}
+.pooter li a{
+   text-decoration: none;
+   color: black;
+}

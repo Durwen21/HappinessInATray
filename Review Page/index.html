@@ -1,0 +1,148 @@
+<html>
+<head>
+	<title>Reviews</title>
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+	<link rel="Shortcut icon" href="assets/images/message.png"/>
+	<script src="assets/js/jquery-3.6.4.min.js" type="text/javascript"></script>
+	<meta charset="UTF-8">
+</head>
+<body>
+	<header>
+		<img src="assets/images/logo-removebg-preview.png" class="logo">
+		<ul id="menu1">
+		  <li><a href="../Happiness.html">Home</a></li>
+		  <li><a href="Products.html" >Menu</a></li>
+		  <li><a href="../About/about page/index.html">About</a></li>
+		  <li id="re"><a href="../review page/index.html" id="home">Reviews</a></li>
+		  <li><button onclick="window.location.href = '../LogIn&Signup/LogIn.html';" class="btn">Sign in</button></li>
+		  <li><button onclick="window.location.href = '../LogIn&Signup/LogIn.html';" class="btn">Log in</button></li>
+		</ul>
+	</header>
+
+	<h1> RATE US</h1>
+	<!--
+	<table id="reyt">
+	<tr colspan="2">
+		<td class="rate">
+    		<input type="radio" id="star5" name="rate" value="5" />
+   	 		<label for="star5" title="text">5 stars</label>
+    		<input type="radio" id="star4" name="rate" value="4" />
+    		<label for="star4" title="text">4 stars</label>
+   		 	<input type="radio" id="star3" name="rate" value="3" />
+    		<label for="star3" title="text">3 stars</label>
+    		<input type="radio" id="star2" name="rate" value="2" />
+    		<label for="star2" title="text">2 stars</label>
+    		<input type="radio" id="star1" name="rate" value="1" />
+    		<label for="star1" title="text">1 star</label>
+    	</td>
+    </tr>
+    <tr colspan="2">
+    	<td>
+			<input type="text" placeholder="ENTER USERNAME:" id="name">
+		</td>
+	</tr>
+	<tr colspan="2">
+		<td>
+		<input type="text" placeholder="ENTER COMMENT:" id="comment">
+		</td>
+	</tr>
+	<tr colspan="2">
+		<div id="Comment">
+		<td id="display">
+		<h3>Comment</h3>
+		<p id="p1">USERNAME <span></p>
+		<p id="p2">COMMENT <span></p>
+</table>
+	</div>
+	-->
+	<div id="reviews">
+		<table id="scroll">
+			<tr>
+				<td colspan="3"><img src="assets/images/comment1.png" id="comment1"></td>
+			</tr>
+			<tr>
+				<td class="pic"><img src="assets/images/pic1.jpg" id="pic1"></td>
+				<td><img src="assets/images/pic2.jpg" id="pic2"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><img src="assets/images/comment2.png" id="comment2"></td>
+			</tr>
+			<tr>
+				<td class="pic" ><img src="assets/images/pic3.jpg" id="pic3"></td>
+				<td><img src="assets/images/pic4.jpg" id="pic4"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><img src="assets/images/comment3.png" id="comment3"></td>
+			</tr>
+			<tr>
+				<td><img src="assets/images/pic5.jpg" id="pic5"></td>
+			</tr>
+			<tr>
+				<td colspan="3"><img src="assets/images/comment4.png" id="comment4"></td>
+			</tr>
+			<tr>
+				<td><img src="assets/images/pic6.jpg" id="pic6"></td>
+			</tr>
+
+			
+
+		</table>
+
+	</div>
+	<script>
+
+	 $("#name").keydown(function(event){
+		        if(event.keyCode === 13){
+		            $("#p1").html($("#name").val())
+					$("#Comment").append("<li>#Comment</li>");
+		            $("#Comment").show();
+		        }
+
+		    });
+
+		    $("#comment").keydown(function(event){
+		        if(event.keyCode === 13){
+		            $("#p2").html($("#comment").val())
+					
+		            $("#players").hide();
+		        }
+		    });
+	</script>
+		    
+
+	<footer>
+
+		<div class="socials">   
+		  <ul id="socmed">
+			<li> Follow us on:</li>
+		   <li id="FB"><a href="https://www.facebook.com/happinessinatray"><img src="../Assests/images/icons8-facebook (1).gif" class="pics"></a> </li>
+		   <li id="IG"><a href="https://www.instagram.com/HappinessinaTray/?fbclid=IwAR2g8TANYH6Avhnq5UrLrNLNYLLvh6_TdWO-HS81IW-baRwmZwQkDaJ4SQc"><img src="../Assests/images/icons8-instagram.gif"class="pics"> </a></li>
+		   <li id="Email"><a href="#" ><img src="../Assests/images/icons8-phone.gif" class="pics"></a> 0929 796 5731</li>
+		   <li id="Number"><a href="#" ><img src="../Assests/images/icons8-subscribe (1).gif" class="pics"></a>happinessinatray@gmail.com</li>
+		   
+		  </ul>
+		   </div>
+		
+		<div class="foot">
+		  <ul class="pooter">
+			<li><a href="#"> Web Accessiblity</a></li>
+			<li><a href="#">Privacy Policy </a></li>
+			<li><a href="#"> Terms of Use </a></li>
+			<li><a href="#">Site Map </a></li>
+			<li><a href="#"> Cookie prefereces</a></li>
+			<li><a href="#"> @ 2023 Happiness in a Tray. All rights Reserved</li>
+		   </ul>
+	
+	
+		</div>
+	  </footer>
+
+		
+
+
+		
+	
+
+ 
+</body>
+</html>
